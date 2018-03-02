@@ -18,7 +18,8 @@
       <a id="logo-container" href="index.html" class="brand-logo"><img src="public/assets/img/logo-tripper.png" height="50px" width="200px"></a>
       <ul class="right hide-on-med-and-down">
         <li><a class="modal-trigger" href="#modal1">Log In</a></li>
-        <li><a href="user.html">My Account</a></li>
+        <li><a class="modal-trigger" href="#create-account">Create Account</a></li>
+        <li><a href="index.html">My Account</a></li>
        
       </ul>
       
@@ -32,7 +33,7 @@
   });
      	</script>
       	
-  <!-- Modal Structure Start -->
+  <!-- Modal LogIn Start -->
   <div id="modal1" class="modal">
     <div class="modal-content #e0e0e0 grey lighten-2">
       <h5 style="color: #212121">Member Log In</h5>
@@ -62,7 +63,55 @@
     </div>
 
   </div>
-    <!-- Modal Form Structure End -->
+    <!-- Modal LogIn End -->
+
+      <!-- Modal CREATE ACCOUNT START -->
+  <div id="create-account" class="modal">
+    <div class="modal-content #e0e0e0 grey lighten-2">
+      <h5 style="color: #212121">Create Account</h5>
+
+  <div class="row" class="modal-content" style="background: white">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="name" type="text" class="validate">
+          <label for="name">Name:</label>
+        </div>
+      </div>
+
+            <div class="row">
+        <div class="input-field col s6">
+          <input id="user-name" type="text" class="validate">
+          <label for="user_name">Username:</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password:</label>
+        </div>
+      </div>
+
+            <div class="row">
+        <div class="input-field col s6">
+          <input id="password-confirmation" type="password" class="validate">
+          <label for="password-confirmation">Password Confirmation:</label>
+        </div>
+      </div>
+
+
+    </form>
+  </div>
+
+      <div>
+    <button id="submit-trip" class="btn #ef5350 red lighten-1" type="submit" name="action">Create Account</button>
+    </div>
+
+    </div>
+
+  </div>
+      <!-- Modal CREATE ACCOUNT END -->
   
   </div>
 
